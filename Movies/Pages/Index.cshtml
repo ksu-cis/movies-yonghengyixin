@@ -8,6 +8,7 @@
         <div class="results">
             <h1>Movies</h1>
             @foreach(Movie movie in Model.Movies){
+        <div class="movie-entry">
             <h2>@movie.Title (@movie.Year)</h2>
             <p>Rated @movie.MPAA_Rating</p>
             <div class="reviews">
@@ -20,6 +21,7 @@
                     <h3>@movie.IMDB_Rating</h3>
                 </div>
             </div>
+        </div>
             }
         </div>
         <form method="post">

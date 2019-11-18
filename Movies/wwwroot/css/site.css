@@ -20,7 +20,7 @@ form{
 }
 
 h4{
-    margin-bottom: Spx;
+    margin-bottom: 5px;
 }
 
 .movie-entry{
@@ -43,4 +43,5 @@ h4{
     border:1px solid gray;
     width: 100px;
     text-align: center;
+    padding:5px
 }
